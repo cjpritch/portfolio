@@ -40,7 +40,7 @@ header nav ul li a {
   }
 
 /*styles to about me*/
-.about {
+.about-me-section {
     display: flex;
     background-color: #DBF3DA;
 }
