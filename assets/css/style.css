@@ -13,8 +13,6 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: -webkit-sticky;
-    position: sticky;
     z-index: 9999;
   }
 
@@ -95,14 +93,23 @@ header nav ul li a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: #DBF3DA;
 }
 
+.project-section h2 {
+    text-align: center;
+}
+.project-section img {
+    width: 70%;
+    border: black 10px solid;
+}
 
 /* styles to skills */
 .skills-section {
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
+   background-color: #DBF3DA;
 }
 
 /* styles to contact me */
@@ -110,7 +117,13 @@ header nav ul li a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: #DBF3DA;
 }
+
+.contact-me li {
+    list-style-type: none;
+}
+
 .contact-me a {
     text-decoration: none;
     color: black;
