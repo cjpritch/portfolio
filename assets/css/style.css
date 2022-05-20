@@ -1,3 +1,8 @@
+:root {
+  --dark: #A3C9A0;
+  --light: #DBF3DA
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +14,7 @@
   
 header {
     padding: 20px 40px;
-    background-color: #A3C9A0;
+    background-color: var(--dark);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -53,8 +58,8 @@ header nav ul li a {
 /*styles to about me*/
 .about-me-section {
     display: flex;
-    background-color: #DBF3DA;
-    border-bottom: #A3C9A0 solid 3px;
+    background-color: var(--light);
+    border-bottom: var(--dark) solid 3px;
     padding: 20px;
 }
 .info {
@@ -80,7 +85,7 @@ header nav ul li a {
     margin: 3.5%;
     border-radius: 15px;
     font-size: 20px;
-    background-color: #A3C9A0;
+    background-color: var(--dark);
 }
 .info ul li {
       list-style: none;
@@ -92,7 +97,7 @@ header nav ul li a {
   }
 
 .info ul li:hover {
-      background-color: #A3C9A0;
+      background-color: var(--dark);
   }
 
 .photo img {
@@ -117,8 +122,8 @@ header nav ul li a {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: #DBF3DA;
-    border-bottom: #A3C9A0 solid 3px;
+    background-color: var(--light);
+    border-bottom: var(--dark) solid 3px;
     padding: 20px;
     align-items: center;
 }
@@ -140,8 +145,8 @@ header nav ul li a {
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
-   background-color: #DBF3DA;
-   border-bottom: #A3C9A0 solid 3px;
+   background-color: var(--light);
+   border-bottom: var(--dark) solid 3px;
    padding: 20px;
 }
 
@@ -150,7 +155,7 @@ header nav ul li a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #DBF3DA;
+    background-color: var(--light);
 }
 
 .contact-me li {
@@ -161,7 +166,7 @@ header nav ul li a {
 
 .contact-me li:hover {
     text-decoration: none;
-    background-color: #A3C9A0;
+    background-color: var(--dark);
 }
 
 .contact-me a {
@@ -173,7 +178,7 @@ header nav ul li a {
 
 footer {
     padding: 20px;
-    background-color: #A3C9A0;
+    background-color: var(--dark);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
