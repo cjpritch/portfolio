@@ -28,7 +28,7 @@ header a {
     font-size: 3vw;
   }
 
-  header nav {
+header nav {
       margin: 8px;
   }
 
@@ -64,6 +64,7 @@ header nav ul li a {
     color: black;
     font-size: 18px;
     margin-top: 100px;
+    line-height: 1.8 ;
   }
 
 .info a {
@@ -153,7 +154,14 @@ header nav ul li a {
 }
 
 .contact-me li {
+    text-decoration: none;
     list-style-type: none;
+    line-height: 1.8;
+}
+
+.contact-me li:hover {
+    text-decoration: none;
+    background-color: #A3C9A0;
 }
 
 .contact-me a {
