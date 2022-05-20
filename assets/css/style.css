@@ -8,7 +8,7 @@
   /*styles for header*/
   
 header {
-    padding: 20px;
+    padding: 20px 40px;
     background-color: #A3C9A0;
     display: flex;
     justify-content: space-between;
@@ -16,9 +16,20 @@ header {
     z-index: 9999;
   }
 
+header h1{
+    font-family: monospace;
+    font-size: 3vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
 header a {
     text-decoration: none;
     color: #fff;
+    font-size: 3vw;
+  }
+
+  header nav {
+      margin: 8px;
   }
 
 header nav ul {
@@ -43,6 +54,8 @@ header nav ul li a {
 .about-me-section {
     display: flex;
     background-color: #DBF3DA;
+    border-bottom: #A3C9A0 solid 3px;
+    padding: 20px;
 }
 .info {
     display: flex;
@@ -66,6 +79,7 @@ header nav ul li a {
     margin: 3.5%;
     border-radius: 15px;
     font-size: 20px;
+    background-color: #A3C9A0;
 }
 .info ul li {
       list-style: none;
@@ -75,33 +89,49 @@ header nav ul li a {
       padding: 30px;
       font-size: 20px;
   }
-.name-photo h1, .project-section h2, .skills-section h2, .contact-me h2{
+
+.info ul li:hover {
+      background-color: #A3C9A0;
+  }
+
+.photo img {
+    width: 100%;
+    margin: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 15px;
+}
+
+.project-section h2, .skills-section h2, .contact-me h2{
     padding: 20px;
     font-weight: bold;
     font-family: monospace;
     font-size: 40px;
 }
-.name-photo img {
-    width: 100%;
-    margin: 10px;
+
+/* styles to projects */
+
+.project-section {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-/* styles to projects */
-.project-section {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     background-color: #DBF3DA;
+    border-bottom: #A3C9A0 solid 3px;
+    padding: 20px;
+    align-items: center;
 }
 
-.project-section h2 {
-    text-align: center;
-}
 .project-section img {
-    width: 70%;
     border: black 10px solid;
+}
+
+.primary-site {
+    width: 70%;
+}
+
+.secondary-site {
+    width: 30%;
 }
 
 /* styles to skills */
@@ -110,6 +140,8 @@ header nav ul li a {
    justify-content: center;
    flex-wrap: wrap;
    background-color: #DBF3DA;
+   border-bottom: #A3C9A0 solid 3px;
+   padding: 20px;
 }
 
 /* styles to contact me */
@@ -139,7 +171,7 @@ footer {
     flex-wrap: wrap;
 }
 
-footer a {
+footer a, footer h2 {
     text-decoration: none;
     color: #fff;
   }
