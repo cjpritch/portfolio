@@ -5,5 +5,5 @@ A portfolio to showcase my work, skills, and a little about myself.
 
 ![image](./assets/images/screenshot.png)
 
-##Website
+## Website
 (https://cjpritch.github.io/portfolio/)
