@@ -203,7 +203,7 @@ footer div ul li a:hover {
   }
 
   /* Media query for smaller than desktop */
-  
+
 @media screen and (max-width: 980px) {
     header {
       padding-bottom: 0;
