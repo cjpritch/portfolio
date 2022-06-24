@@ -132,12 +132,8 @@ header nav ul li a {
     border: black 10px solid;
 }
 
-.primary-site {
-    width: 70%;
-}
-
-.secondary-site {
-    width: 30%;
+.site {
+    width: 50%;
 }
 
 /* styles to skills */
